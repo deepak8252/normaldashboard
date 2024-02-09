@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.clip{
+  clip-path: polygon(0 0, 100% 0, 100% 86%, 0 100%);
+}
+.glas{
+    /* From https://css.glass */
+  /* From https://css.glass */
+background: rgba(16, 197, 16, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(217, 24, 24, 0.3);
+}
